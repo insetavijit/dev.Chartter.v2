@@ -7,14 +7,16 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "npm run env:activate && npm run SYS:run-vs-code && npm run Create:note",
     "test": "echo \"Error: no test specified\" && exit 1",
     "env:rename": "poetry run python -m ipykernel install --user --name=myproject --display-name 'Chartter-2'",
     "env:install": "poetry install",
     "env:activate": "poetry env activate",
-    "SYS:run-vs-code": "code .",
+    "SYS:run-vs-code": "code PYdev.code-workspace",
     "commit": "cz",
     "release": "semantic-release",
     "commit:auto": "node Scripts/auto-commit.js",
+    "env:self":"sudo chown -R avijit:avijit ./Codes",
     "Create:note": "node Scripts/Create_logs.js"
   },
   "devDependencies": {
