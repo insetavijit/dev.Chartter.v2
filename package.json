@@ -13,7 +13,8 @@
     "env:activate": "Poetry env activate",
     "SYS:run-vs-code": "code .",
     "commit": "cz",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "auto-commit": "node Scripts/auto-commit.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
@@ -28,5 +29,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "simple-git": "^3.28.0"
   }
 }
