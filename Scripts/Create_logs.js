@@ -34,7 +34,9 @@ const datetimeFile = now.toISOString().replace(/[:.]/g, '-'); // YYYY-MM-DDTHH-M
 const fileName = argv.name ? `${argv.name}.${argv.ext}` : `${datetimeFile}.${argv.ext}`;
 
 // Paths
-const folderPath = path.join(process.cwd(), dateFolder);
+// Base folder: Notes inside current working directory
+const notesFolder = path.join(process.cwd(), "Notes");
+const folderPath = path.join(notesFolder, dateFolder);
 const filePath = path.join(folderPath, fileName);
 
 // Default template if none provided

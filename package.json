@@ -8,13 +8,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "env:rename": "Poetry run python -m ipykernel install --user --name=myproject --display-name 'Chartter-2'",
-    "env:install": "Poetry install",
-    "env:activate": "Poetry env activate",
+    "env:rename": "poetry run python -m ipykernel install --user --name=myproject --display-name 'Chartter-2'",
+    "env:install": "poetry install",
+    "env:activate": "poetry env activate",
     "SYS:run-vs-code": "code .",
     "commit": "cz",
     "release": "semantic-release",
-    "commit:auto": "node Scripts/auto-commit.js"
+    "commit:auto": "node Scripts/auto-commit.js",
+    "Create:note": "node Scripts/Create_logs.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
