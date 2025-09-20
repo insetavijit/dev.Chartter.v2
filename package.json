@@ -14,7 +14,7 @@
     "SYS:run-vs-code": "code .",
     "commit": "cz",
     "release": "semantic-release",
-    "auto-commit": "node Scripts/auto-commit.js"
+    "commit:auto": "node Scripts/auto-commit.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",

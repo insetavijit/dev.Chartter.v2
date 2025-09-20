@@ -1,36 +1,116 @@
 #!/usr/bin/env node
 
-const simpleGit = require("simple-git");
+const simpleGit = require('simple-git');
+const yargs = require('yargs');
 const git = simpleGit();
 
-// Generate timestamp for commit message
+// Parse command-line arguments
+const argv = yargs
+  .option('branch', {
+    alias: 'b',
+    type: 'string',
+    default: 'main',
+    description: 'Branch to commit and push to',
+  })
+  .option('message', {
+    alias: 'm',
+    type: 'string',
+    description: 'Custom commit message (overrides timestamp)',
+  })
+  .option('remote', {
+    alias: 'r',
+    type: 'string',
+    default: 'origin',
+    description: 'Remote repository name',
+  })
+  .option('dry-run', {
+    type: 'boolean',
+    default: false,
+    description: 'Simulate the Git operations without executing them',
+  })
+  .help()
+  .argv;
+
+// Generate timestamp for default commit message
 const now = new Date();
-const timestamp = now.toISOString(); // e.g., "2025-09-20T12:34:56.789Z"
+const timestamp = now.toISOString().replace(/[:.]/g, '-'); // e.g., 2025-09-20T12-34-56-789Z
+const commitMessage = argv.message || `Auto-commit: ${timestamp}`;
+
+// Logger for consistent output
+const log = (message, isError = false) => {
+  const prefix = isError ? '❌' : 'ℹ️';
+  console.log(`${prefix} ${message}`);
+};
 
 async function autoCommit() {
   try {
-    // Initialize repo if not exists
+    // Check if in a Git repository
     if (!(await git.checkIsRepo())) {
-      console.log("Initializing Git repository...");
-      await git.init();
+      log('Not a Git repository. Initializing...');
+      if (!argv.dryRun) {
+        await git.init();
+        log('Git repository initialized');
+      } else {
+        log('Would initialize Git repository (dry run)');
+      }
+    }
+
+    // Check for changes
+    const status = await git.status();
+    if (!status.files.length) {
+      log('No changes to commit');
+      return;
     }
 
     // Stage all changes
-    console.log("Adding all changes...");
-    await git.add("./*");
+    log('Adding all changes...');
+    if (!argv.dryRun) {
+      await git.add('./*');
+    } else {
+      log('Would stage all changes (dry run)');
+    }
 
-    // Commit with timestamp
-    console.log(`Committing: "${timestamp}"`);
-    await git.commit(timestamp);
+    // Commit changes
+    log(`Committing with message: "${commitMessage}"`);
+    if (!argv.dryRun) {
+      await git.commit(commitMessage);
+    } else {
+      log('Would commit changes (dry run)');
+    }
 
-    // Push to remote main branch
-    console.log("Pushing to origin/main...");
-    await git.push("origin", "main", { "--set-upstream": null });
+    // Check if remote exists
+    const remotes = await git.getRemotes(true);
+    const remoteExists = remotes.some((r) => r.name === argv.remote);
+    if (!remoteExists) {
+      log(`Remote "${argv.remote}" not found. Skipping push.`);
+      return;
+    }
 
-    console.log("✅ Auto commit and push completed!");
+    // Ensure branch exists locally
+    const branches = await git.branchLocal();
+    if (!branches.all.includes(argv.branch)) {
+      log(`Branch "${argv.branch}" does not exist locally. Creating...`);
+      if (!argv.dryRun) {
+        await git.checkoutLocalBranch(argv.branch);
+      } else {
+        log(`Would create branch "${argv.branch}" (dry run)`);
+      }
+    }
+
+    // Push to remote
+    log(`Pushing to ${argv.remote}/${argv.branch}...`);
+    if (!argv.dryRun) {
+      await git.push(argv.remote, argv.branch, { '--set-upstream': null });
+    } else {
+      log(`Would push to ${argv.remote}/${argv.branch} (dry run)`);
+    }
+
+    log('✅ Auto commit and push completed!', false);
   } catch (err) {
-    console.error("Git automation failed:", err);
+    log(`Git automation failed: ${err.message}`, true);
+    process.exit(1);
   }
 }
 
+// Run the script
 autoCommit();
