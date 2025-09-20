@@ -1,0 +1,24 @@
+{
+  "name": "dev.chartter.v2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env:rename": "Poetry run python -m ipykernel install --user --name=myproject --display-name 'Chartter-2'",
+    "env:install": "Poetry install",
+    "env:activate": "Poetry env activate",
+    "SYS:run-vs-code": "code ."
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.2",
+    "commitizen": "^4.3.1",
+    "husky": "^9.1.7",
+    "semantic-release": "^24.2.9"
+  }
+}
