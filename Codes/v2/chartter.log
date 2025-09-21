@@ -1,0 +1,33 @@
+2025-09-21 11:41:41,683 [INFO] Generating chart 1012d3a1-2ba9-441d-bc05-719ded5ddacd with 151 data points
+2025-09-21 11:41:43,647 [INFO] Chart 1012d3a1-2ba9-441d-bc05-719ded5ddacd generated successfully in 1.97s
+2025-09-21 11:41:43,743 [INFO] Generating chart 2e928c50-788e-4871-bab4-54a04e64264d with 151 data points
+2025-09-21 11:41:45,196 [INFO] Chart 2e928c50-788e-4871-bab4-54a04e64264d generated successfully in 1.45s
+2025-09-21 11:42:01,329 [INFO] Generating chart d77b3318-a4e6-4393-88ab-5a2af08bb9b6 with 151 data points
+2025-09-21 11:42:01,573 [ERROR] Failed to generate chart d77b3318-a4e6-4393-88ab-5a2af08bb9b6: kwarg "volume_panel" validator returned False for value: "None"
+    'Validator'   : lambda value: _valid_panel_id(value) },
+2025-09-21 11:42:20,490 [INFO] Generating chart 83508c05-0771-499f-b38d-300db34a3ebb with 151 data points
+2025-09-21 11:42:20,518 [ERROR] Failed to generate chart 83508c05-0771-499f-b38d-300db34a3ebb: kwarg "volume_panel" validator returned False for value: "None"
+    'Validator'   : lambda value: _valid_panel_id(value) },
+2025-09-21 11:43:21,959 [INFO] Generating chart 42f018d8-6508-4ce4-8f38-5f7215daa591 with 151 data points
+2025-09-21 11:43:22,339 [ERROR] Failed to generate chart 42f018d8-6508-4ce4-8f38-5f7215daa591: kwarg "volume_panel" validator returned False for value: "None"
+    'Validator'   : lambda value: _valid_panel_id(value) },
+2025-09-21 11:49:24,383 [INFO] Generating chart e371f859-31f8-450f-851e-779c5f2bb0e5 with 100 data points
+2025-09-21 11:49:24,589 [ERROR] Failed to generate chart e371f859-31f8-450f-851e-779c5f2bb0e5: kwarg "volume_panel" validator returned False for value: "None"
+    'Validator'   : lambda value: _valid_panel_id(value) },
+2025-09-21 11:51:55,034 [INFO] Generating chart 5bd5bdc3-ef67-4b8b-9be8-ac7feecfe071 with 100 data points
+2025-09-21 11:52:04,321 [INFO] Chart 5bd5bdc3-ef67-4b8b-9be8-ac7feecfe071 generated successfully in 9.29s
+2025-09-21 11:52:05,006 [INFO] Generating chart 71d808fc-ba6e-41e0-9a39-05fee89d5ec4 with 100 data points
+2025-09-21 11:52:09,222 [INFO] Chart 71d808fc-ba6e-41e0-9a39-05fee89d5ec4 generated successfully in 4.21s
+2025-09-21 11:52:09,277 [INFO] Chart saved to chart.png
+2025-09-21 11:52:34,055 [INFO] Generating chart 9d99aeda-e44f-45e4-98bf-c5e26cf38d06 with 100 data points
+2025-09-21 11:52:35,278 [INFO] Chart 9d99aeda-e44f-45e4-98bf-c5e26cf38d06 generated successfully in 1.23s
+2025-09-21 11:52:35,335 [INFO] Generating chart 83a62b34-87c0-426b-bbe2-bf74eef834a8 with 100 data points
+2025-09-21 11:52:37,246 [INFO] Chart 83a62b34-87c0-426b-bbe2-bf74eef834a8 generated successfully in 1.91s
+2025-09-21 11:54:32,846 [INFO] Generating chart 13243de1-915e-4f2d-a1b6-1274c9228773 with 151 data points
+2025-09-21 11:54:36,064 [INFO] Chart 13243de1-915e-4f2d-a1b6-1274c9228773 generated successfully in 3.23s
+2025-09-21 11:54:36,122 [INFO] Generating chart e5220162-9efa-4f5a-9791-f2b856a30a5f with 151 data points
+2025-09-21 11:54:37,545 [INFO] Chart e5220162-9efa-4f5a-9791-f2b856a30a5f generated successfully in 1.42s
+2025-09-21 11:56:09,258 [INFO] Generating chart 8d024370-49d4-4fdf-91dc-3c42d701ffd0 with 151 data points
+2025-09-21 11:56:15,691 [INFO] Chart 8d024370-49d4-4fdf-91dc-3c42d701ffd0 generated successfully in 6.47s
+2025-09-21 11:56:16,034 [INFO] Generating chart 9ccf7231-6c6b-40a3-8847-466689db8a1a with 151 data points
+2025-09-21 11:56:18,829 [INFO] Chart 9ccf7231-6c6b-40a3-8847-466689db8a1a generated successfully in 2.80s
