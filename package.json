@@ -16,7 +16,7 @@
     "commit": "cz",
     "release": "semantic-release",
     "commit:auto": "node Scripts/auto-commit.js",
-    "env:self":"sudo chown -R avijit:avijit ./Codes",
+    "env:self": "sudo chown -R avijit:avijit ./Codes && sudo chmod -R u+rwx ./Codes",
     "Create:note": "node Scripts/Create_logs.js"
   },
   "devDependencies": {
