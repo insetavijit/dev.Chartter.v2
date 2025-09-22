@@ -22,3 +22,637 @@
 2025-09-22 14:11:37,988 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
 2025-09-22 14:15:10,534 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
 2025-09-22 14:15:18,853 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:19:18,694 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:19:20,889 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 2.140s)
+2025-09-22 14:19:21,455 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:22,146 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:19:22,153 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:19:22,450 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.991s)
+2025-09-22 14:19:22,492 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.028s)
+2025-09-22 14:19:22,502 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:22,519 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:19:22,522 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:19:22,536 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.031s)
+2025-09-22 14:19:22,634 [INFO] Date filtering completed: 23713 -> 365 rows (range: 2024-11-01 to 2024-11-07, time: 0.093s)
+2025-09-22 14:19:22,643 [INFO] Weekday filtering: 365 -> 341 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:22,659 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:19:22,662 [INFO] Successfully validated DataFrame with 341 rows
+2025-09-22 14:19:22,679 [INFO] Successfully resampled 341 rows to 341 rows (period: 15T, time: 0.031s)
+2025-09-22 14:19:56,447 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:19:58,134 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 1.540s)
+2025-09-22 14:19:58,493 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:58,965 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:19:58,971 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:19:59,283 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.782s)
+2025-09-22 14:19:59,328 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.033s)
+2025-09-22 14:19:59,342 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:59,379 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:19:59,387 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:19:59,418 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.063s)
+2025-09-22 14:19:59,548 [INFO] Date filtering completed: 23713 -> 365 rows (range: 2024-11-01 to 2024-11-07, time: 0.113s)
+2025-09-22 14:19:59,587 [INFO] Weekday filtering: 365 -> 341 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:19:59,682 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:19:59,689 [INFO] Successfully validated DataFrame with 341 rows
+2025-09-22 14:19:59,821 [INFO] Successfully resampled 341 rows to 341 rows (period: 15T, time: 0.220s)
+2025-09-22 14:20:16,141 [INFO] Generating chart 37d9e4fc-24bf-41ea-a2f7-13d12e7aa28e with 1493 data points
+2025-09-22 14:20:32,381 [INFO] Chart 37d9e4fc-24bf-41ea-a2f7-13d12e7aa28e generated successfully in 16.35s
+2025-09-22 14:20:32,486 [INFO] Generating chart 9b8b7b35-469c-41ea-8a02-7566b9ec30fb with 448 data points
+2025-09-22 14:20:33,211 [INFO] Chart 9b8b7b35-469c-41ea-8a02-7566b9ec30fb generated successfully in 0.73s
+2025-09-22 14:20:33,220 [INFO] Generating chart e78397f5-4836-441c-9f5d-8b26d2e6273f with 341 data points
+2025-09-22 14:20:33,893 [INFO] Chart e78397f5-4836-441c-9f5d-8b26d2e6273f generated successfully in 0.67s
+2025-09-22 14:21:15,226 [INFO] Generating chart 788bc66e-9d6d-43b3-ad7a-23d87b48b0b5 with 1493 data points
+2025-09-22 14:21:21,285 [INFO] Chart 788bc66e-9d6d-43b3-ad7a-23d87b48b0b5 generated successfully in 6.16s
+2025-09-22 14:21:21,413 [INFO] Generating chart 72fe07b8-3db8-400b-a34e-c30a4bb221b2 with 448 data points
+2025-09-22 14:21:22,178 [INFO] Chart 72fe07b8-3db8-400b-a34e-c30a4bb221b2 generated successfully in 0.77s
+2025-09-22 14:21:22,197 [INFO] Generating chart c5d8b189-1de5-4803-962e-a829e7a8f538 with 341 data points
+2025-09-22 14:21:22,864 [INFO] Chart c5d8b189-1de5-4803-962e-a829e7a8f538 generated successfully in 0.67s
+2025-09-22 14:24:15,430 [INFO] Generating chart a08b13fa-3c4e-4a65-a55b-d97ed8c3db54 with 1493 data points
+2025-09-22 14:24:27,572 [INFO] Chart a08b13fa-3c4e-4a65-a55b-d97ed8c3db54 generated successfully in 12.31s
+2025-09-22 14:24:27,627 [INFO] Generating chart e4a4717b-f6d4-4376-b72d-f7b555deb732 with 448 data points
+2025-09-22 14:24:29,113 [INFO] Chart e4a4717b-f6d4-4376-b72d-f7b555deb732 generated successfully in 1.50s
+2025-09-22 14:24:29,126 [INFO] Generating chart dca1da97-ed37-495f-a369-8bfb825ab463 with 341 data points
+2025-09-22 14:24:30,083 [INFO] Chart dca1da97-ed37-495f-a369-8bfb825ab463 generated successfully in 0.96s
+2025-09-22 14:24:36,987 [INFO] Generating chart dbb7a272-8f39-43d2-9b0a-a88638ed0f85 with 1493 data points
+2025-09-22 14:24:37,170 [ERROR] DataFrame must contain 'Volume' column when volume is True
+2025-09-22 14:24:37,174 [ERROR] Failed to generate chart dbb7a272-8f39-43d2-9b0a-a88638ed0f85: DataFrame must contain 'Volume' column when volume is True
+2025-09-22 14:25:01,643 [INFO] Generating chart 9e20f5c7-6eea-46d4-b9f1-8f0508677d67 with 1493 data points
+2025-09-22 14:25:08,805 [INFO] Chart 9e20f5c7-6eea-46d4-b9f1-8f0508677d67 generated successfully in 7.27s
+2025-09-22 14:25:08,850 [INFO] Generating chart f5c8eed8-5d9d-4d54-a4bd-f813d0601af6 with 448 data points
+2025-09-22 14:25:11,993 [INFO] Chart f5c8eed8-5d9d-4d54-a4bd-f813d0601af6 generated successfully in 3.14s
+2025-09-22 14:25:12,124 [INFO] Generating chart e1587d2e-d270-42d8-a844-0d217cd5d9e1 with 341 data points
+2025-09-22 14:25:13,017 [INFO] Chart e1587d2e-d270-42d8-a844-0d217cd5d9e1 generated successfully in 0.89s
+2025-09-22 14:27:33,008 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:27:36,549 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 2.891s)
+2025-09-22 14:27:39,035 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:27:54,115 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:27:54,159 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:27:54,440 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 15.378s)
+2025-09-22 14:27:54,613 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.167s)
+2025-09-22 14:27:54,639 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:27:54,937 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:27:54,941 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:27:54,966 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.324s)
+2025-09-22 14:27:55,008 [INFO] Date filtering completed: 23713 -> 365 rows (range: 2024-11-01 to 2024-11-07, time: 0.035s)
+2025-09-22 14:27:55,020 [INFO] Weekday filtering: 365 -> 341 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:27:55,037 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:27:55,044 [INFO] Successfully validated DataFrame with 341 rows
+2025-09-22 14:27:55,079 [INFO] Successfully resampled 341 rows to 341 rows (period: 15T, time: 0.048s)
+2025-09-22 14:28:05,819 [INFO] Generating chart 8f968744-ef46-49b0-bd04-828a750f4ca5 with 1493 data points
+2025-09-22 14:28:10,311 [INFO] Chart 8f968744-ef46-49b0-bd04-828a750f4ca5 generated successfully in 4.50s
+2025-09-22 14:28:10,324 [INFO] Generating chart fd0d4f73-ed3b-4d75-a32d-bba3e08df4da with 448 data points
+2025-09-22 14:28:12,437 [INFO] Chart fd0d4f73-ed3b-4d75-a32d-bba3e08df4da generated successfully in 2.11s
+2025-09-22 14:28:12,441 [INFO] Generating chart e6fb8281-465d-4980-8e23-08d1fe19eb5f with 341 data points
+2025-09-22 14:28:12,873 [INFO] Chart e6fb8281-465d-4980-8e23-08d1fe19eb5f generated successfully in 0.43s
+2025-09-22 14:41:05,048 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:41:06,674 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 1.465s)
+2025-09-22 14:41:06,790 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:41:07,026 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:41:07,031 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:41:07,219 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.423s)
+2025-09-22 14:41:07,248 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.025s)
+2025-09-22 14:41:07,257 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:41:07,277 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:41:07,281 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:41:07,294 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.035s)
+2025-09-22 14:41:07,422 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.123s)
+2025-09-22 14:41:07,432 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:41:07,453 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:41:07,460 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:41:07,486 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.050s)
+2025-09-22 14:41:08,989 [INFO] Generating chart 9168d311-0fd1-413f-9acf-fe9ecb812b90 with 1493 data points
+2025-09-22 14:41:10,798 [INFO] Chart 9168d311-0fd1-413f-9acf-fe9ecb812b90 generated successfully in 1.81s
+2025-09-22 14:41:10,968 [INFO] Generating chart 487737fe-2bb6-47cd-b948-708ba17fc581 with 448 data points
+2025-09-22 14:41:11,457 [INFO] Chart 487737fe-2bb6-47cd-b948-708ba17fc581 generated successfully in 0.49s
+2025-09-22 14:41:11,459 [INFO] Generating chart 2d260c7b-eaee-407c-be73-10e271ef8795 with 1789 data points
+2025-09-22 14:41:12,062 [INFO] Chart 2d260c7b-eaee-407c-be73-10e271ef8795 generated successfully in 0.60s
+2025-09-22 14:41:51,356 [INFO] Generating chart ba01be5a-9b3d-49d4-8ed9-52d4d161c87f with 1493 data points
+2025-09-22 14:41:56,260 [INFO] Chart ba01be5a-9b3d-49d4-8ed9-52d4d161c87f generated successfully in 4.94s
+2025-09-22 14:41:56,289 [INFO] Generating chart 036d8c9e-31b0-45ec-97fb-d73cc4886d08 with 448 data points
+2025-09-22 14:41:57,011 [INFO] Chart 036d8c9e-31b0-45ec-97fb-d73cc4886d08 generated successfully in 0.72s
+2025-09-22 14:41:57,017 [INFO] Generating chart adb381d3-eb09-4e5f-a385-5daeef8808b1 with 448 data points
+2025-09-22 14:41:57,977 [INFO] Chart adb381d3-eb09-4e5f-a385-5daeef8808b1 generated successfully in 0.96s
+2025-09-22 14:42:29,520 [INFO] Generating chart 1a4dd011-28d3-4cb9-8b4c-dab02de98c11 with 1493 data points
+2025-09-22 14:42:33,006 [INFO] Chart 1a4dd011-28d3-4cb9-8b4c-dab02de98c11 generated successfully in 3.54s
+2025-09-22 14:42:33,023 [INFO] Generating chart a64c3157-3cf8-4320-bff4-72c6e229d86b with 448 data points
+2025-09-22 14:42:33,708 [INFO] Chart a64c3157-3cf8-4320-bff4-72c6e229d86b generated successfully in 0.69s
+2025-09-22 14:42:33,710 [INFO] Generating chart 4c4ad02b-2da5-41f0-bdf2-c00591e18195 with 448 data points
+2025-09-22 14:42:34,275 [INFO] Chart 4c4ad02b-2da5-41f0-bdf2-c00591e18195 generated successfully in 0.56s
+2025-09-22 14:42:34,281 [INFO] Generating chart eab12167-69e9-4eb0-a772-30305968bf5a with 447 data points
+2025-09-22 14:42:35,170 [INFO] Chart eab12167-69e9-4eb0-a772-30305968bf5a generated successfully in 0.89s
+2025-09-22 14:42:35,178 [INFO] Generating chart 8b54bba2-f92f-4254-ae2b-89528bb5d161 with 447 data points
+2025-09-22 14:42:35,749 [INFO] Chart 8b54bba2-f92f-4254-ae2b-89528bb5d161 generated successfully in 0.58s
+2025-09-22 14:42:35,754 [INFO] Generating chart 605462b6-6e4c-4302-b695-f26cc47a9644 with 447 data points
+2025-09-22 14:42:36,208 [INFO] Chart 605462b6-6e4c-4302-b695-f26cc47a9644 generated successfully in 0.45s
+2025-09-22 14:55:40,649 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:55:41,922 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 1.045s)
+2025-09-22 14:55:42,337 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:55:42,658 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:55:42,661 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:55:43,159 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.816s)
+2025-09-22 14:55:43,197 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.031s)
+2025-09-22 14:55:43,224 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:55:43,332 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:55:43,335 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:55:43,392 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.157s)
+2025-09-22 14:55:43,565 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.037s)
+2025-09-22 14:55:43,587 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:55:43,619 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 14:55:43,625 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 14:55:43,648 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.058s)
+2025-09-22 14:55:46,170 [INFO] Generating chart 56d84e9d-e0e4-46b7-9443-726cf1b1e581 with 1493 data points
+2025-09-22 14:55:58,374 [INFO] Chart 56d84e9d-e0e4-46b7-9443-726cf1b1e581 generated successfully in 12.25s
+2025-09-22 14:55:58,405 [INFO] Generating chart 282a8e15-bae9-434d-80d2-d1911fc9c93e with 448 data points
+2025-09-22 14:55:59,402 [INFO] Chart 282a8e15-bae9-434d-80d2-d1911fc9c93e generated successfully in 1.00s
+2025-09-22 14:55:59,405 [INFO] Generating chart 058836dd-0152-4b7a-9789-a6352db37a9d with 448 data points
+2025-09-22 14:56:00,612 [INFO] Chart 058836dd-0152-4b7a-9789-a6352db37a9d generated successfully in 1.21s
+2025-09-22 14:56:00,619 [INFO] Generating chart 2cd8ac6f-2251-46f7-babf-861353a921e0 with 447 data points
+2025-09-22 14:56:01,554 [INFO] Chart 2cd8ac6f-2251-46f7-babf-861353a921e0 generated successfully in 0.94s
+2025-09-22 14:56:01,558 [INFO] Generating chart 0e23135c-2032-4f9e-8868-2c15d33cf8cc with 447 data points
+2025-09-22 14:56:02,024 [INFO] Chart 0e23135c-2032-4f9e-8868-2c15d33cf8cc generated successfully in 0.47s
+2025-09-22 14:56:02,027 [INFO] Generating chart 3e1b3d0c-57e5-4c6b-8dc5-5547e2757f7a with 447 data points
+2025-09-22 14:56:02,542 [INFO] Chart 3e1b3d0c-57e5-4c6b-8dc5-5547e2757f7a generated successfully in 0.52s
+2025-09-22 15:18:02,393 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:18:05,105 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 2.543s)
+2025-09-22 15:18:05,314 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:18:06,253 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 15:18:06,267 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 15:18:06,886 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 1.558s)
+2025-09-22 15:18:06,943 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.040s)
+2025-09-22 15:18:06,966 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:18:07,009 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:18:07,013 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:18:07,045 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.073s)
+2025-09-22 15:18:08,028 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.966s)
+2025-09-22 15:18:08,038 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:18:08,060 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:18:08,063 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:18:08,082 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.040s)
+2025-09-22 15:18:08,119 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.034s)
+2025-09-22 15:18:08,132 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:18:08,144 [INFO] Cache hit for period 15T
+2025-09-22 15:19:52,481 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:19:55,890 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 2.822s)
+2025-09-22 15:19:56,283 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:19:57,283 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 15:19:57,310 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 15:20:01,039 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 4.668s)
+2025-09-22 15:20:01,665 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.335s)
+2025-09-22 15:20:01,727 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:01,815 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:01,826 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:20:02,142 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.410s)
+2025-09-22 15:20:02,251 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.040s)
+2025-09-22 15:20:02,280 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:02,322 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:02,330 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:20:02,372 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.080s)
+2025-09-22 15:20:02,498 [INFO] Date filtering completed: 23713 -> 365 rows (range: 2024-11-01 to 2024-11-07, time: 0.089s)
+2025-09-22 15:20:02,526 [INFO] Weekday filtering: 365 -> 341 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:02,576 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:02,584 [INFO] Successfully validated DataFrame with 341 rows
+2025-09-22 15:20:02,629 [INFO] Successfully resampled 341 rows to 341 rows (period: 15T, time: 0.099s)
+2025-09-22 15:20:07,777 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:20:08,768 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 0.831s)
+2025-09-22 15:20:09,239 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:09,584 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 15:20:09,621 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 15:20:10,066 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.820s)
+2025-09-22 15:20:10,182 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.073s)
+2025-09-22 15:20:10,193 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:10,222 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:10,239 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:20:10,291 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.092s)
+2025-09-22 15:20:10,440 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.125s)
+2025-09-22 15:20:10,458 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:10,510 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:10,525 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:20:10,575 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.107s)
+2025-09-22 15:20:10,661 [INFO] Date filtering completed: 23713 -> 365 rows (range: 2024-11-01 to 2024-11-07, time: 0.068s)
+2025-09-22 15:20:10,675 [INFO] Weekday filtering: 365 -> 341 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:20:10,794 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:20:10,803 [INFO] Successfully validated DataFrame with 341 rows
+2025-09-22 15:20:10,904 [INFO] Successfully resampled 341 rows to 341 rows (period: 1T, time: 0.200s)
+2025-09-22 15:26:28,000 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:26:36,502 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 8.421s)
+2025-09-22 15:26:38,178 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:26:39,409 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:26:39,419 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:26:39,891 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 1.163s)
+2025-09-22 15:26:43,062 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.128s)
+2025-09-22 15:26:43,229 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:26:43,329 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:26:43,333 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:26:43,370 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.125s)
+2025-09-22 15:26:46,694 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.301s)
+2025-09-22 15:26:46,762 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:26:46,837 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:26:46,843 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:26:46,888 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.117s)
+2025-09-22 15:26:49,420 [INFO] Date filtering completed: 355652 -> 5461 rows (range: 2024-11-01 to 2024-11-07, time: 2.513s)
+2025-09-22 15:26:49,453 [INFO] Weekday filtering: 5461 -> 5101 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:26:49,484 [WARNING] Found 1 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:26:49,489 [INFO] Successfully validated DataFrame with 5101 rows
+2025-09-22 15:26:49,515 [INFO] Successfully resampled 5101 rows to 5101 rows (period: 1T, time: 0.058s)
+2025-09-22 15:27:27,698 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:27:40,087 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 11.667s)
+2025-09-22 15:27:43,927 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:27:45,545 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:27:45,570 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:27:47,708 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 3.722s)
+2025-09-22 15:27:53,057 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 5.259s)
+2025-09-22 15:27:53,361 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:27:53,570 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:27:53,578 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:27:54,191 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.821s)
+2025-09-22 15:27:57,944 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.691s)
+2025-09-22 15:27:58,361 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:27:58,493 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:27:58,499 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:27:58,770 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.401s)
+2025-09-22 15:28:02,952 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 4.065s)
+2025-09-22 15:28:03,078 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:28:03,185 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:28:03,196 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:28:03,357 [INFO] Successfully resampled 26832 rows to 26832 rows (period: 1T, time: 0.273s)
+2025-09-22 15:33:15,243 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:33:33,329 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 17.751s)
+2025-09-22 15:34:35,779 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:38:59,957 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:39:01,084 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 1.081s)
+2025-09-22 15:39:01,575 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:39:01,895 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 15:39:01,900 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 15:39:02,226 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 0.645s)
+2025-09-22 15:39:02,256 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.023s)
+2025-09-22 15:39:02,271 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:39:02,293 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:39:02,297 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:39:02,310 [INFO] Successfully resampled 1789 rows to 448 rows (period: 1H, time: 0.035s)
+2025-09-22 15:39:02,403 [INFO] Date filtering completed: 23713 -> 1885 rows (range: 2024-11-01 to 2024-12-01, time: 0.087s)
+2025-09-22 15:39:02,414 [INFO] Weekday filtering: 1885 -> 1789 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:39:02,434 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:15:00
+2025-09-22 15:39:02,439 [INFO] Successfully validated DataFrame with 1789 rows
+2025-09-22 15:39:02,481 [INFO] Successfully resampled 1789 rows to 1789 rows (period: 15T, time: 0.062s)
+2025-09-22 15:39:02,519 [INFO] Date filtering completed: 23713 -> 64 rows (range: 2024-11-01 to 2024-11-02, time: 0.034s)
+2025-09-22 15:39:02,525 [INFO] Weekday filtering: 64 -> 64 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:39:02,548 [INFO] Successfully validated DataFrame with 64 rows
+2025-09-22 15:39:02,564 [INFO] Successfully resampled 64 rows to 64 rows (period: 1T, time: 0.028s)
+2025-09-22 15:39:03,424 [INFO] Generating chart 2b3b68ef-4fa7-4a76-a429-366b0b9e90c4 with 1493 data points
+2025-09-22 15:39:06,281 [INFO] Chart 2b3b68ef-4fa7-4a76-a429-366b0b9e90c4 generated successfully in 2.86s
+2025-09-22 15:39:06,497 [INFO] Generating chart 544e03d0-8326-47ed-a02c-a9f8be1409a9 with 448 data points
+2025-09-22 15:39:07,533 [INFO] Chart 544e03d0-8326-47ed-a02c-a9f8be1409a9 generated successfully in 1.04s
+2025-09-22 15:39:07,539 [INFO] Generating chart ea410e07-c5ef-43fd-af63-d9c094c629e8 with 448 data points
+2025-09-22 15:39:08,564 [INFO] Chart ea410e07-c5ef-43fd-af63-d9c094c629e8 generated successfully in 1.03s
+2025-09-22 15:39:08,568 [INFO] Generating chart bae7d8e5-21f0-4555-902c-1ec6502f8d96 with 447 data points
+2025-09-22 15:39:09,183 [INFO] Chart bae7d8e5-21f0-4555-902c-1ec6502f8d96 generated successfully in 0.61s
+2025-09-22 15:39:09,191 [INFO] Generating chart eee3c041-28f1-4cd8-93bd-b5a260159583 with 447 data points
+2025-09-22 15:39:09,929 [INFO] Chart eee3c041-28f1-4cd8-93bd-b5a260159583 generated successfully in 0.74s
+2025-09-22 15:39:09,935 [INFO] Generating chart b687edb8-ce4d-4c5a-82d2-d638e8aeb6aa with 447 data points
+2025-09-22 15:39:10,733 [INFO] Chart b687edb8-ce4d-4c5a-82d2-d638e8aeb6aa generated successfully in 0.80s
+2025-09-22 15:41:30,975 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:41:42,894 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 11.749s)
+2025-09-22 15:41:45,186 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:41:46,868 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:41:46,873 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:41:48,218 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 2.818s)
+2025-09-22 15:41:52,140 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.783s)
+2025-09-22 15:41:52,338 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:41:52,391 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:41:52,394 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:41:52,452 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.112s)
+2025-09-22 15:41:55,044 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.393s)
+2025-09-22 15:41:55,073 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:41:55,120 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:41:55,122 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:41:55,169 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.089s)
+2025-09-22 15:41:57,605 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-02, time: 2.410s)
+2025-09-22 15:41:57,621 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:41:57,641 [INFO] Successfully validated DataFrame with 960 rows
+2025-09-22 15:41:57,660 [INFO] Successfully resampled 960 rows to 960 rows (period: 1T, time: 0.036s)
+2025-09-22 15:41:58,334 [INFO] Generating chart ce313fd8-9269-4702-b376-bc2c29c5684a with 1493 data points
+2025-09-22 15:42:01,734 [INFO] Chart ce313fd8-9269-4702-b376-bc2c29c5684a generated successfully in 3.41s
+2025-09-22 15:42:01,759 [INFO] Generating chart 0f746b95-7b13-4ab1-a42f-f98d69029a2e with 448 data points
+2025-09-22 15:42:02,183 [INFO] Chart 0f746b95-7b13-4ab1-a42f-f98d69029a2e generated successfully in 0.43s
+2025-09-22 15:42:02,186 [INFO] Generating chart 5be42822-8318-4daa-a3b9-b07ae975cff4 with 448 data points
+2025-09-22 15:42:02,617 [INFO] Chart 5be42822-8318-4daa-a3b9-b07ae975cff4 generated successfully in 0.43s
+2025-09-22 15:42:02,620 [INFO] Generating chart 12f609a1-c936-4e88-8b4a-ab0f34819fb6 with 447 data points
+2025-09-22 15:42:03,147 [INFO] Chart 12f609a1-c936-4e88-8b4a-ab0f34819fb6 generated successfully in 0.53s
+2025-09-22 15:42:03,148 [INFO] Generating chart 39b356bf-f3c7-405c-ac89-2ac88372ac9d with 447 data points
+2025-09-22 15:42:03,801 [INFO] Chart 39b356bf-f3c7-405c-ac89-2ac88372ac9d generated successfully in 0.65s
+2025-09-22 15:42:03,805 [INFO] Generating chart f182383d-3aa3-46eb-a3af-ee206570da6a with 447 data points
+2025-09-22 15:42:18,500 [INFO] Chart f182383d-3aa3-46eb-a3af-ee206570da6a generated successfully in 14.69s
+2025-09-22 15:44:43,931 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:45:02,491 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 17.688s)
+2025-09-22 15:45:04,556 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:45:05,887 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:45:05,945 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:45:07,166 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 2.509s)
+2025-09-22 15:45:11,100 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.768s)
+2025-09-22 15:45:11,501 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:45:11,741 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:45:11,747 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:45:11,891 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.376s)
+2025-09-22 15:45:14,759 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.806s)
+2025-09-22 15:45:14,798 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:45:14,853 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:45:14,861 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:45:14,988 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.184s)
+2025-09-22 15:45:17,514 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-03, time: 2.514s)
+2025-09-22 15:45:17,540 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:45:17,564 [INFO] Successfully validated DataFrame with 960 rows
+2025-09-22 15:45:17,593 [INFO] Successfully resampled 960 rows to 960 rows (period: 1T, time: 0.047s)
+2025-09-22 15:47:45,879 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:47:55,740 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 9.146s)
+2025-09-22 15:47:57,900 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:47:58,950 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:47:58,975 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:47:59,627 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 1.694s)
+2025-09-22 15:48:02,515 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.842s)
+2025-09-22 15:48:02,681 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:48:02,752 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:48:02,755 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:48:02,796 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.111s)
+2025-09-22 15:48:05,411 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.587s)
+2025-09-22 15:48:05,443 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:48:05,490 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:48:05,496 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:48:05,578 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.129s)
+2025-09-22 15:48:08,419 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-03, time: 2.831s)
+2025-09-22 15:48:08,441 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:49:03,333 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:49:10,682 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 7.211s)
+2025-09-22 15:49:12,152 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:49:13,111 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:49:13,134 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:49:13,618 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 1.391s)
+2025-09-22 15:49:17,705 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 4.032s)
+2025-09-22 15:49:18,223 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:49:18,390 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:49:18,395 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:49:18,525 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.298s)
+2025-09-22 15:49:21,839 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.239s)
+2025-09-22 15:49:21,912 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:49:21,983 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:49:21,989 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:49:22,036 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.120s)
+2025-09-22 15:49:24,649 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-03, time: 2.597s)
+2025-09-22 15:49:24,663 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:50:11,971 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:50:20,080 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 7.896s)
+2025-09-22 15:50:22,624 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:50:23,627 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:50:23,679 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:50:24,586 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 1.925s)
+2025-09-22 15:50:28,899 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 4.075s)
+2025-09-22 15:50:29,167 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:50:29,483 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:50:29,498 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:50:29,863 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.687s)
+2025-09-22 15:50:33,460 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.575s)
+2025-09-22 15:50:33,581 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:50:33,729 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:50:33,735 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:50:33,816 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.229s)
+2025-09-22 15:50:37,568 [INFO] Date filtering completed: 355652 -> 0 rows (range: 2024-11-02 to 2024-11-03, time: 3.734s)
+2025-09-22 15:50:37,642 [INFO] Weekday filtering: 0 -> 0 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:51:26,874 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:51:36,030 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 9.050s)
+2025-09-22 15:51:38,047 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:51:39,299 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:51:39,353 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:51:40,492 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 2.383s)
+2025-09-22 15:51:47,236 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 6.613s)
+2025-09-22 15:51:48,008 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:51:48,290 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:51:48,296 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:51:48,652 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.636s)
+2025-09-22 15:51:56,127 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 6.840s)
+2025-09-22 15:51:56,669 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:51:57,201 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:51:57,239 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:51:58,241 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 1.563s)
+2025-09-22 15:52:04,649 [INFO] Date filtering completed: 355652 -> 0 rows (range: 2024-11-02 to 2024-11-03, time: 6.297s)
+2025-09-22 15:58:02,925 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:58:18,238 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 14.862s)
+2025-09-22 15:58:22,184 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:58:26,597 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:58:26,931 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:58:31,061 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 8.683s)
+2025-09-22 15:58:38,376 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 6.851s)
+2025-09-22 15:58:41,394 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:58:42,356 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:58:42,375 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:58:43,889 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 2.389s)
+2025-09-22 15:58:47,547 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.550s)
+2025-09-22 15:58:47,878 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:58:48,168 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:58:48,176 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:58:48,406 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.521s)
+2025-09-22 15:58:48,833 [INFO] Date filtering completed: 355652 -> 30073 rows (range: 2024-11-05 to 2024-12-05, time: 0.391s)
+2025-09-22 15:58:48,948 [INFO] Weekday filtering: 30073 -> 28633 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:58:49,039 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 09:17:00
+2025-09-22 15:58:49,051 [INFO] Successfully validated DataFrame with 28633 rows
+2025-09-22 15:58:49,176 [INFO] Successfully resampled 28633 rows to 28633 rows (period: 1T, time: 0.223s)
+2025-09-22 15:59:20,007 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 15:59:45,107 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 24.489s)
+2025-09-22 15:59:46,102 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:59:48,958 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 15:59:49,071 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 15:59:53,442 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 7.164s)
+2025-09-22 15:59:54,317 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 0.683s)
+2025-09-22 15:59:54,449 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:59:54,565 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:59:54,573 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:59:54,677 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.221s)
+2025-09-22 15:59:54,741 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 0.049s)
+2025-09-22 15:59:54,776 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:59:54,829 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 15:59:54,834 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 15:59:54,912 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.131s)
+2025-09-22 15:59:54,989 [INFO] Date filtering completed: 355652 -> 1 rows (range: 2024-11-05 to 2024-11-05, time: 0.064s)
+2025-09-22 15:59:54,998 [INFO] Weekday filtering: 1 -> 1 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 15:59:55,014 [INFO] Successfully validated DataFrame with 1 rows
+2025-09-22 15:59:55,035 [INFO] Successfully resampled 1 rows to 1 rows (period: 1T, time: 0.034s)
+2025-09-22 16:00:21,145 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 16:00:23,680 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 2.473s)
+2025-09-22 16:00:25,229 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:01:20,664 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 16:01:23,750 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 16:01:38,153 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 71.059s)
+2025-09-22 16:01:41,970 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 3.125s)
+2025-09-22 16:01:42,426 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:01:42,669 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 16:01:42,675 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 16:01:43,051 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.619s)
+2025-09-22 16:01:43,524 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 0.427s)
+2025-09-22 16:01:43,558 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:01:43,625 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 16:01:43,635 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 16:01:43,671 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.100s)
+2025-09-22 16:01:43,787 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-05 to 2024-11-06, time: 0.105s)
+2025-09-22 16:01:43,839 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:01:43,864 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:01:43,896 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.053s)
+2025-09-22 16:03:06,905 [INFO] Generating chart 81f084c6-27b9-4ae3-895b-36f3aeca0653 with 1493 data points
+2025-09-22 16:03:17,193 [INFO] Chart 81f084c6-27b9-4ae3-895b-36f3aeca0653 generated successfully in 11.15s
+2025-09-22 16:03:17,242 [INFO] Generating chart bd0f987a-e996-4d8d-b225-f2613db7aa9d with 448 data points
+2025-09-22 16:03:18,972 [INFO] Chart bd0f987a-e996-4d8d-b225-f2613db7aa9d generated successfully in 1.73s
+2025-09-22 16:03:18,978 [INFO] Generating chart 729a8d29-6c83-4ef9-9787-a6fba3cb1b25 with 448 data points
+2025-09-22 16:03:19,943 [INFO] Chart 729a8d29-6c83-4ef9-9787-a6fba3cb1b25 generated successfully in 0.97s
+2025-09-22 16:03:19,948 [INFO] Generating chart bcdcbc8c-00ad-45a8-878a-230fcff1a730 with 447 data points
+2025-09-22 16:03:21,652 [INFO] Chart bcdcbc8c-00ad-45a8-878a-230fcff1a730 generated successfully in 1.70s
+2025-09-22 16:03:21,661 [INFO] Generating chart edf78057-bd89-45b2-ad6a-7b9366ad78f1 with 447 data points
+2025-09-22 16:03:23,036 [INFO] Chart edf78057-bd89-45b2-ad6a-7b9366ad78f1 generated successfully in 1.38s
+2025-09-22 16:03:23,040 [INFO] Generating chart fc067e24-9210-4294-a1bb-6c613731d84a with 447 data points
+2025-09-22 16:03:23,566 [INFO] Chart fc067e24-9210-4294-a1bb-6c613731d84a generated successfully in 0.53s
+2025-09-22 16:03:23,576 [INFO] Generating chart 7e3f8753-4bfc-4c4b-a7d4-732ca83eef81 with 1381 data points
+2025-09-22 16:03:24,461 [INFO] Chart 7e3f8753-4bfc-4c4b-a7d4-732ca83eef81 generated successfully in 0.89s
+2025-09-22 16:04:39,290 [INFO] Generating chart fbeb57c2-05e1-4210-a8b1-3f59a3c8617c with 1493 data points
+2025-09-22 16:05:02,131 [INFO] Chart fbeb57c2-05e1-4210-a8b1-3f59a3c8617c generated successfully in 23.03s
+2025-09-22 16:05:02,145 [INFO] Generating chart 31521099-ce94-4e6e-bd56-341c4102d42d with 448 data points
+2025-09-22 16:05:04,159 [INFO] Chart 31521099-ce94-4e6e-bd56-341c4102d42d generated successfully in 2.01s
+2025-09-22 16:05:04,167 [INFO] Generating chart e1ced59b-bf6e-488a-8d7f-c1e341b47466 with 448 data points
+2025-09-22 16:05:05,611 [INFO] Chart e1ced59b-bf6e-488a-8d7f-c1e341b47466 generated successfully in 1.44s
+2025-09-22 16:05:05,618 [INFO] Generating chart 291e7b8a-a917-4768-8579-448ef001535b with 1381 data points
+2025-09-22 16:05:06,818 [INFO] Chart 291e7b8a-a917-4768-8579-448ef001535b generated successfully in 1.20s
+2025-09-22 16:21:47,433 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-02, time: 11.904s)
+2025-09-22 16:21:48,625 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:49,571 [INFO] Successfully validated DataFrame with 960 rows
+2025-09-22 16:21:50,253 [INFO] Successfully resampled 960 rows to 960 rows (period: 1T, time: 1.396s)
+2025-09-22 16:21:50,923 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-04 to 2024-11-05, time: 0.537s)
+2025-09-22 16:21:50,967 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:50,997 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:21:51,037 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.062s)
+2025-09-22 16:21:51,116 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-05 to 2024-11-06, time: 0.065s)
+2025-09-22 16:21:51,150 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:51,189 [INFO] Cache hit for period 1T
+2025-09-22 16:21:51,243 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-06 to 2024-11-07, time: 0.045s)
+2025-09-22 16:21:51,357 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:51,375 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:21:51,416 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.055s)
+2025-09-22 16:21:51,470 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-07 to 2024-11-08, time: 0.047s)
+2025-09-22 16:21:51,513 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:51,552 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:21:51,583 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.058s)
+2025-09-22 16:21:51,823 [INFO] Date filtering completed: 355652 -> 1020 rows (range: 2024-11-08 to 2024-11-09, time: 0.233s)
+2025-09-22 16:21:51,847 [INFO] Weekday filtering: 1020 -> 1020 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:21:51,876 [INFO] Successfully validated DataFrame with 1020 rows
+2025-09-22 16:21:51,911 [INFO] Successfully resampled 1020 rows to 1020 rows (period: 1T, time: 0.060s)
+2025-09-22 16:23:36,115 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-02, time: 6.977s)
+2025-09-22 16:23:41,220 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:24:26,128 [INFO] Successfully validated DataFrame with 960 rows
+2025-09-22 16:24:42,261 [INFO] Successfully resampled 960 rows to 64 rows (period: 15T, time: 59.923s)
+2025-09-22 16:24:52,985 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-04 to 2024-11-05, time: 5.989s)
+2025-09-22 16:24:58,181 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:08,918 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:25:18,880 [INFO] Successfully resampled 1381 rows to 93 rows (period: 15T, time: 19.818s)
+2025-09-22 16:25:23,931 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-05 to 2024-11-06, time: 2.898s)
+2025-09-22 16:25:27,842 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:30,824 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:25:33,102 [INFO] Successfully resampled 1381 rows to 93 rows (period: 15T, time: 3.542s)
+2025-09-22 16:25:36,306 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-06 to 2024-11-07, time: 2.859s)
+2025-09-22 16:25:36,960 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:37,322 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:25:38,019 [INFO] Successfully resampled 1381 rows to 93 rows (period: 15T, time: 1.051s)
+2025-09-22 16:25:39,291 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-07 to 2024-11-08, time: 1.202s)
+2025-09-22 16:25:39,310 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:39,344 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:25:39,392 [INFO] Successfully resampled 1381 rows to 93 rows (period: 15T, time: 0.079s)
+2025-09-22 16:25:39,555 [INFO] Date filtering completed: 355652 -> 1020 rows (range: 2024-11-08 to 2024-11-09, time: 0.140s)
+2025-09-22 16:25:39,568 [INFO] Weekday filtering: 1020 -> 1020 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:39,623 [INFO] Successfully validated DataFrame with 1020 rows
+2025-09-22 16:25:39,676 [INFO] Successfully resampled 1020 rows to 68 rows (period: 15T, time: 0.099s)
+2025-09-22 16:25:44,384 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-02, time: 0.437s)
+2025-09-22 16:25:44,422 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:44,514 [INFO] Cache hit for period 1T
+2025-09-22 16:25:44,762 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-04 to 2024-11-05, time: 0.147s)
+2025-09-22 16:25:44,841 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:44,999 [INFO] Cache hit for period 1T
+2025-09-22 16:25:45,114 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-05 to 2024-11-06, time: 0.098s)
+2025-09-22 16:25:45,182 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:45,198 [INFO] Cache hit for period 1T
+2025-09-22 16:25:45,241 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-06 to 2024-11-07, time: 0.037s)
+2025-09-22 16:25:45,262 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:45,283 [INFO] Cache hit for period 1T
+2025-09-22 16:25:45,338 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-07 to 2024-11-08, time: 0.049s)
+2025-09-22 16:25:45,349 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:45,370 [INFO] Cache hit for period 1T
+2025-09-22 16:25:45,438 [INFO] Date filtering completed: 355652 -> 1020 rows (range: 2024-11-08 to 2024-11-09, time: 0.053s)
+2025-09-22 16:25:45,459 [INFO] Weekday filtering: 1020 -> 1020 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:25:45,496 [INFO] Cache hit for period 1T
+2025-09-22 16:39:41,184 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 16:39:49,701 [INFO] Date filtering completed: 355652 -> 354635 rows (range: 2024-01-01 to 2024-12-31, time: 8.448s)
+2025-09-22 16:39:51,107 [INFO] Weekday filtering: 354635 -> 335688 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:39:53,058 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:02:00
+2025-09-22 16:39:53,063 [INFO] Successfully validated DataFrame with 335688 rows
+2025-09-22 16:39:53,911 [INFO] Successfully resampled 335688 rows to 1493 rows (period: 4H, time: 2.797s)
+2025-09-22 16:39:56,609 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.657s)
+2025-09-22 16:39:56,638 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:39:56,683 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 16:39:56,686 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 16:39:56,711 [INFO] Successfully resampled 26832 rows to 448 rows (period: 1H, time: 0.069s)
+2025-09-22 16:39:59,096 [INFO] Date filtering completed: 355652 -> 28272 rows (range: 2024-11-01 to 2024-12-01, time: 2.376s)
+2025-09-22 16:39:59,287 [INFO] Weekday filtering: 28272 -> 26832 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:39:59,328 [WARNING] Found 4 large gaps in data. Maximum gap: 2 days 08:01:00
+2025-09-22 16:39:59,332 [INFO] Successfully validated DataFrame with 26832 rows
+2025-09-22 16:39:59,359 [INFO] Successfully resampled 26832 rows to 1789 rows (period: 15T, time: 0.069s)
+2025-09-22 16:40:03,186 [INFO] Date filtering completed: 355652 -> 960 rows (range: 2024-11-01 to 2024-11-02, time: 3.209s)
+2025-09-22 16:40:03,237 [INFO] Weekday filtering: 960 -> 960 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:03,285 [INFO] Successfully validated DataFrame with 960 rows
+2025-09-22 16:40:03,335 [INFO] Successfully resampled 960 rows to 960 rows (period: 1T, time: 0.093s)
+2025-09-22 16:40:06,312 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-04 to 2024-11-05, time: 2.968s)
+2025-09-22 16:40:06,351 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:06,390 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:40:06,429 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.071s)
+2025-09-22 16:40:09,989 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-05 to 2024-11-06, time: 3.548s)
+2025-09-22 16:40:10,039 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:10,087 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:40:10,122 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.074s)
+2025-09-22 16:40:14,855 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-06 to 2024-11-07, time: 4.712s)
+2025-09-22 16:40:15,029 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:15,126 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:40:15,596 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.562s)
+2025-09-22 16:40:21,214 [INFO] Date filtering completed: 355652 -> 1381 rows (range: 2024-11-07 to 2024-11-08, time: 5.568s)
+2025-09-22 16:40:21,301 [INFO] Weekday filtering: 1381 -> 1381 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:21,611 [INFO] Successfully validated DataFrame with 1381 rows
+2025-09-22 16:40:21,722 [INFO] Successfully resampled 1381 rows to 1381 rows (period: 1T, time: 0.415s)
+2025-09-22 16:40:26,077 [INFO] Date filtering completed: 355652 -> 1020 rows (range: 2024-11-08 to 2024-11-09, time: 4.343s)
+2025-09-22 16:40:26,154 [INFO] Weekday filtering: 1020 -> 1020 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 16:40:26,244 [INFO] Successfully validated DataFrame with 1020 rows
+2025-09-22 16:40:26,322 [INFO] Successfully resampled 1020 rows to 1020 rows (period: 1T, time: 0.154s)
+2025-09-22 16:40:28,762 [INFO] Generating chart fa1ad78d-6c89-45c1-bf9c-2f37759bc765 with 1493 data points
+2025-09-22 16:40:33,262 [INFO] Chart fa1ad78d-6c89-45c1-bf9c-2f37759bc765 generated successfully in 4.76s
+2025-09-22 16:40:33,412 [INFO] Generating chart bde59e7c-c418-4753-bf0e-8e5a650855c2 with 448 data points
+2025-09-22 16:40:34,072 [INFO] Chart bde59e7c-c418-4753-bf0e-8e5a650855c2 generated successfully in 0.67s
+2025-09-22 16:40:34,074 [INFO] Generating chart 786886df-21f1-4f0e-88b4-034153a7a656 with 448 data points
+2025-09-22 16:40:34,955 [INFO] Chart 786886df-21f1-4f0e-88b4-034153a7a656 generated successfully in 0.88s
+2025-09-22 16:40:34,962 [INFO] Generating chart 13d15e9a-a488-4570-87d6-31b58465f31d with 1020 data points
+2025-09-22 16:40:36,062 [INFO] Chart 13d15e9a-a488-4570-87d6-31b58465f31d generated successfully in 1.10s
+2025-09-22 16:41:31,264 [INFO] Generating chart e89fdf2f-d79d-4534-9a53-92941620e3cd with 1493 data points
+2025-09-22 16:41:39,477 [INFO] Chart e89fdf2f-d79d-4534-9a53-92941620e3cd generated successfully in 8.35s
+2025-09-22 16:41:39,639 [INFO] Generating chart 9af06d4e-9d67-400e-bcb7-d4480a664b23 with 448 data points
+2025-09-22 16:41:44,654 [INFO] Chart 9af06d4e-9d67-400e-bcb7-d4480a664b23 generated successfully in 5.02s
+2025-09-22 16:41:44,721 [INFO] Generating chart 5d9e5e1e-9e49-466d-87ed-b30d5759625c with 448 data points
+2025-09-22 16:41:50,009 [INFO] Chart 5d9e5e1e-9e49-466d-87ed-b30d5759625c generated successfully in 5.30s
+2025-09-22 16:41:50,033 [INFO] Generating chart ae9acbac-cfee-430f-83b9-3cf169138ba3 with 1020 data points
+2025-09-22 16:41:51,244 [INFO] Chart ae9acbac-cfee-430f-83b9-3cf169138ba3 generated successfully in 1.22s
+2025-09-22 16:41:51,252 [INFO] Generating chart 892c6d91-1c7f-4eb4-bfe7-0e78fcc1bd2a with 960 data points
+2025-09-22 16:41:54,296 [INFO] Chart 892c6d91-1c7f-4eb4-bfe7-0e78fcc1bd2a generated successfully in 3.05s
+2025-09-22 16:41:54,304 [INFO] Generating chart 764fb229-fce3-491e-8e7c-75f2fb8d4c60 with 1381 data points
+2025-09-22 16:41:55,114 [INFO] Chart 764fb229-fce3-491e-8e7c-75f2fb8d4c60 generated successfully in 0.81s
+2025-09-22 16:41:55,120 [INFO] Generating chart a0bf5063-8c96-40e3-b6a7-bfad95dd98d9 with 1381 data points
+2025-09-22 16:41:58,255 [INFO] Chart a0bf5063-8c96-40e3-b6a7-bfad95dd98d9 generated successfully in 3.14s
+2025-09-22 16:41:58,260 [INFO] Generating chart c67389af-7c28-4638-a171-201d982ccdec with 1381 data points
+2025-09-22 16:42:23,815 [INFO] Chart c67389af-7c28-4638-a171-201d982ccdec generated successfully in 25.56s
+2025-09-22 16:42:23,881 [INFO] Generating chart 64ab0f86-ee28-41aa-9605-5b88743cadfb with 1381 data points
+2025-09-22 16:42:26,596 [INFO] Chart 64ab0f86-ee28-41aa-9605-5b88743cadfb generated successfully in 2.72s
+2025-09-22 16:42:26,601 [INFO] Generating chart 982027bc-79fe-46a6-be52-6c04d1abffeb with 1020 data points
+2025-09-22 16:42:28,053 [INFO] Chart 982027bc-79fe-46a6-be52-6c04d1abffeb generated successfully in 1.45s
+2025-09-22 16:43:46,696 [INFO] Generating chart a972826e-2359-4d6a-9559-e780283dc8e5 with 1493 data points
+2025-09-22 16:44:02,229 [INFO] Chart a972826e-2359-4d6a-9559-e780283dc8e5 generated successfully in 15.91s
+2025-09-22 16:44:02,288 [INFO] Generating chart 8d37cbc0-0a65-460e-88c6-d73503a6c546 with 448 data points
+2025-09-22 16:44:04,197 [INFO] Chart 8d37cbc0-0a65-460e-88c6-d73503a6c546 generated successfully in 1.91s
+2025-09-22 16:44:04,215 [INFO] Generating chart 3de2d8f2-086b-4039-a36e-45bf4f87a15a with 448 data points
+2025-09-22 16:44:05,722 [INFO] Chart 3de2d8f2-086b-4039-a36e-45bf4f87a15a generated successfully in 1.51s
+2025-09-22 16:44:05,735 [INFO] Generating chart c0811b71-f1a6-4581-83a8-a29a0520ef0c with 960 data points
+2025-09-22 16:44:06,393 [INFO] Chart c0811b71-f1a6-4581-83a8-a29a0520ef0c generated successfully in 0.66s
