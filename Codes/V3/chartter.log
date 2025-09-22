@@ -1,0 +1,24 @@
+2025-09-22 14:04:31,657 [INFO] Generating chart d9bc1610-2d1a-4aa0-9e1c-411efc879cda with 1493 data points
+2025-09-22 14:04:31,957 [ERROR] DataFrame index must be datetime
+2025-09-22 14:04:31,971 [ERROR] Failed to generate chart d9bc1610-2d1a-4aa0-9e1c-411efc879cda: DataFrame index must be datetime
+2025-09-22 14:05:19,161 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:05:21,789 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 2.136s)
+2025-09-22 14:05:22,065 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:05:22,842 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:05:22,885 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:05:24,700 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 2.621s)
+2025-09-22 14:06:02,867 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:06:04,585 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 1.546s)
+2025-09-22 14:06:04,936 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:06:05,832 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:06:05,969 [INFO] Successfully validated DataFrame with 22386 rows
+2025-09-22 14:06:06,671 [INFO] Successfully resampled 22386 rows to 1493 rows (period: 4H, time: 1.718s)
+2025-09-22 14:06:09,922 [INFO] Generating chart 40746bb2-47d1-4cf6-824e-fa089aa14f4b with 1493 data points
+2025-09-22 14:06:14,236 [INFO] Chart 40746bb2-47d1-4cf6-824e-fa089aa14f4b generated successfully in 4.34s
+2025-09-22 14:07:26,918 [INFO] Generating chart b45dfb77-dca3-4ddc-97c3-6d05ff1b165c with 1493 data points
+2025-09-22 14:07:39,882 [INFO] Chart b45dfb77-dca3-4ddc-97c3-6d05ff1b165c generated successfully in 13.18s
+2025-09-22 14:11:03,526 [INFO] EnterpriseDataResampler initialized successfully
+2025-09-22 14:11:23,117 [INFO] Date filtering completed: 23713 -> 23646 rows (range: 2024-01-01 to 2024-12-31, time: 17.405s)
+2025-09-22 14:11:37,988 [INFO] Weekday filtering: 23646 -> 22386 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 14:15:10,534 [WARNING] Found 53 large gaps in data. Maximum gap: 3 days 08:15:00
+2025-09-22 14:15:18,853 [INFO] Successfully validated DataFrame with 22386 rows
