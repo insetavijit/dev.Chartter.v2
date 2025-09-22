@@ -1,0 +1,37 @@
+2025-09-22 11:42:42,158 - DataResampler - INFO - __init__:625 - EnterpriseDataResampler initialized successfully
+2025-09-22 11:42:43,749 - DataResampler - INFO - <module>:989 - Created sample data with 10000 rows
+2025-09-22 11:42:43,996 - DataResampler - INFO - filter_by_date_range:202 - Date filtering completed: 10000 -> 10000 rows (range: 2023-01-01 to 2023-01-31, time: 0.242s)
+2025-09-22 11:42:44,664 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 10000 rows
+2025-09-22 11:42:45,369 - DataResampler - INFO - resample_data:703 - Successfully resampled 10000 rows to 42 rows (period: 4H, time: 1.370s)
+2025-09-22 11:42:45,372 - DataResampler - INFO - <module>:1000 - Filtered and resampled data: 42 rows
+2025-09-22 11:42:45,442 - DataResampler - INFO - filter_by_weekdays:277 - Weekday filtering: 10000 -> 7200 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 11:42:45,518 - DataResampler - INFO - filter_by_business_hours:243 - Business hours filtering: 7200 -> 1955 rows (hours: 09:30-16:00 UTC)
+2025-09-22 11:42:45,521 - DataResampler - INFO - <module>:1010 - Business hours data: 1955 rows
+2025-09-22 11:42:45,560 - DataResampler - INFO - filter_by_date_range:202 - Date filtering completed: 10000 -> 0 rows (range: 2023-01-15 to 2023-02-15, time: 0.036s)
+2025-09-22 11:42:45,562 - DataResampler - INFO - <module>:1025 - Custom date range filtering: 0 rows
+2025-09-22 11:42:45,597 - DataResampler - INFO - filter_by_weekdays:277 - Weekday filtering: 10000 -> 4320 rows (days: Mon, Wed, Fri)
+2025-09-22 11:42:45,599 - DataResampler - INFO - <module>:1032 - MWF filtering: 4320 rows
+2025-09-22 11:42:45,624 - DataResampler - INFO - filter_by_weekdays:277 - Weekday filtering: 10000 -> 7200 rows (days: Mon, Tue, Wed, Thu, Fri)
+2025-09-22 11:42:45,652 - DataResampler - INFO - filter_by_business_hours:243 - Business hours filtering: 7200 -> 1955 rows (hours: 09:30-16:00 UTC)
+2025-09-22 11:42:45,681 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 1955 rows
+2025-09-22 11:42:45,698 - DataResampler - INFO - resample_data:703 - Successfully resampled 1955 rows to 40 rows (period: 1H, time: 0.041s)
+2025-09-22 11:42:45,701 - DataResampler - INFO - <module>:1045 - Business data resampled to 1H: 40 rows
+2025-09-22 11:42:45,717 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 1955 rows
+2025-09-22 11:42:45,734 - DataResampler - INFO - resample_data:703 - Successfully resampled 1955 rows to 15 rows (period: 4H, time: 0.032s)
+2025-09-22 11:42:45,736 - DataResampler - INFO - <module>:1045 - Business data resampled to 4H: 15 rows
+2025-09-22 11:42:45,756 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 1955 rows
+2025-09-22 11:42:45,777 - DataResampler - INFO - resample_data:703 - Successfully resampled 1955 rows to 5 rows (period: 1D, time: 0.039s)
+2025-09-22 11:42:45,780 - DataResampler - INFO - <module>:1045 - Business data resampled to 1D: 5 rows
+2025-09-22 11:42:45,785 - DataResampler - INFO - resample_data:673 - Cache hit for period 4H
+2025-09-22 11:42:45,787 - DataResampler - INFO - <module>:1053 - 4H resampling successful: 42 rows
+2025-09-22 11:42:45,892 - DataResampler - INFO - resample_data:673 - Cache hit for period 4H
+2025-09-22 11:42:45,978 - DataResampler - INFO - _batch_resample_parallel:765 - Completed parallel processing for dataset 2
+2025-09-22 11:42:46,000 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 10000 rows
+2025-09-22 11:42:46,058 - DataResampler - INFO - validate_dataframe:442 - Successfully validated DataFrame with 10000 rows
+2025-09-22 11:42:46,066 - DataResampler - INFO - resample_data:703 - Successfully resampled 10000 rows to 167 rows (period: 1H, time: 0.201s)
+2025-09-22 11:42:46,068 - DataResampler - INFO - _batch_resample_parallel:765 - Completed parallel processing for dataset 1
+2025-09-22 11:42:46,133 - DataResampler - INFO - resample_data:703 - Successfully resampled 10000 rows to 7 rows (period: 1D, time: 0.260s)
+2025-09-22 11:42:46,142 - DataResampler - INFO - _batch_resample_parallel:765 - Completed parallel processing for dataset 3
+2025-09-22 11:42:46,168 - DataResampler - INFO - <module>:1067 - 1H batch result: 167 rows
+2025-09-22 11:42:46,177 - DataResampler - INFO - <module>:1067 - 4H batch result: 42 rows
+2025-09-22 11:42:46,182 - DataResampler - INFO - <module>:1067 - 1D batch result: 7 rows
