@@ -3953,3 +3953,57 @@
 2025-09-23 14:22:52,390 [INFO] Chart 0a75750c-24cb-4903-8669-d6430079d7b1 generated successfully in 11.41s
 2025-09-23 14:23:29,532 [INFO] Generating chart eec9f0bf-daca-4fca-811a-324faa307915 with 448 data points
 2025-09-23 14:23:35,372 [INFO] Chart eec9f0bf-daca-4fca-811a-324faa307915 generated successfully in 5.84s
+2025-09-23 14:42:35,588 [INFO] Generating chart 63462834-076a-44ae-8560-481e6ef78dfe with 448 data points
+2025-09-23 14:42:36,853 [INFO] Chart 63462834-076a-44ae-8560-481e6ef78dfe generated successfully in 1.26s
+2025-09-23 14:46:10,131 [INFO] Generating chart 6a0adc97-da55-41af-95ea-e02917281d7a with 1493 data points
+2025-09-23 14:46:20,089 [INFO] Chart 6a0adc97-da55-41af-95ea-e02917281d7a generated successfully in 10.03s
+2025-09-23 14:46:20,321 [INFO] Generating chart d2eeeae0-f204-474d-9fea-34f4ed4a379f with 448 data points
+2025-09-23 14:46:21,054 [INFO] Chart d2eeeae0-f204-474d-9fea-34f4ed4a379f generated successfully in 0.73s
+2025-09-23 14:46:21,060 [INFO] Generating chart 19fe560d-cd5a-4068-8e46-5e942f6a6186 with 432 data points
+2025-09-23 14:46:21,681 [INFO] Chart 19fe560d-cd5a-4068-8e46-5e942f6a6186 generated successfully in 0.62s
+2025-09-23 14:46:21,697 [INFO] Generating chart 773175df-95d0-4219-a8bd-149e353f95f8 with 960 data points
+2025-09-23 14:46:22,413 [INFO] Chart 773175df-95d0-4219-a8bd-149e353f95f8 generated successfully in 0.72s
+2025-09-23 14:58:24,340 [INFO] Generating chart a713b3a1-7ae6-4727-a64a-b111b615f079 with 1493 data points
+2025-09-23 14:58:25,822 [INFO] Chart a713b3a1-7ae6-4727-a64a-b111b615f079 generated successfully in 1.48s
+2025-09-23 14:58:25,889 [INFO] Generating chart aebc18ad-c2d0-4a4d-acf3-dcd0e6331af8 with 448 data points
+2025-09-23 14:58:26,274 [INFO] Chart aebc18ad-c2d0-4a4d-acf3-dcd0e6331af8 generated successfully in 0.39s
+2025-09-23 14:58:26,279 [INFO] Generating chart 2d4a8d8c-ccdb-4b5b-8f48-f1aa8185f0e3 with 432 data points
+2025-09-23 14:58:26,631 [INFO] Chart 2d4a8d8c-ccdb-4b5b-8f48-f1aa8185f0e3 generated successfully in 0.35s
+2025-09-23 14:58:26,676 [INFO] Generating chart 0681df81-fd6b-4b9c-bd31-b695bd618b87 with 960 data points
+2025-09-23 14:58:27,145 [INFO] Chart 0681df81-fd6b-4b9c-bd31-b695bd618b87 generated successfully in 0.47s
+2025-09-23 15:05:35,718 [INFO] Generating chart 0a79ee81-b63e-4896-99f1-ad374ac66d00 with 1493 data points
+2025-09-23 15:05:41,266 [INFO] Chart 0a79ee81-b63e-4896-99f1-ad374ac66d00 generated successfully in 5.56s
+2025-09-23 15:05:41,331 [INFO] Generating chart eb8cd511-f262-43db-9539-73368b68a1a2 with 448 data points
+2025-09-23 15:05:42,497 [INFO] Chart eb8cd511-f262-43db-9539-73368b68a1a2 generated successfully in 1.17s
+2025-09-23 15:05:42,516 [INFO] Generating chart 47623f00-47dd-4aff-832a-1257822c3bd7 with 432 data points
+2025-09-23 15:05:43,446 [INFO] Chart 47623f00-47dd-4aff-832a-1257822c3bd7 generated successfully in 0.93s
+2025-09-23 15:05:43,464 [INFO] Generating chart 359b27a6-f30b-493b-b05e-0fa0ba546d3a with 960 data points
+2025-09-23 15:05:44,104 [INFO] Chart 359b27a6-f30b-493b-b05e-0fa0ba546d3a generated successfully in 0.64s
+2025-09-23 15:06:33,062 [INFO] Generating chart d5cdef89-2bfc-4a50-a79f-1cbbbba1b5db with 1493 data points
+2025-09-23 15:06:37,127 [INFO] Chart d5cdef89-2bfc-4a50-a79f-1cbbbba1b5db generated successfully in 4.08s
+2025-09-23 15:33:05,901 [INFO] Generating chart e4fb9bd7-b29e-45cf-b459-e71a32a1c63e with 1493 data points
+2025-09-23 15:33:14,637 [INFO] Chart e4fb9bd7-b29e-45cf-b459-e71a32a1c63e generated successfully in 8.72s
+2025-09-23 15:33:19,583 [INFO] Generating chart 4e8f46b5-48ee-448f-9c70-2723d7ea76af with 1493 data points
+2025-09-23 15:33:22,385 [INFO] Chart 4e8f46b5-48ee-448f-9c70-2723d7ea76af generated successfully in 2.80s
+2025-09-23 15:37:21,354 [INFO] Generating chart 14bee960-9b6e-4d7e-a935-7a9225593051 with 1493 data points
+2025-09-23 15:37:58,843 [INFO] Chart 14bee960-9b6e-4d7e-a935-7a9225593051 generated successfully in 37.51s
+2025-09-23 15:38:19,496 [INFO] Generating chart c36db37a-fd2a-45af-9337-a640c278fba2 with 1493 data points
+2025-09-23 15:38:23,147 [INFO] Chart c36db37a-fd2a-45af-9337-a640c278fba2 generated successfully in 3.68s
+2025-09-23 15:42:34,520 [INFO] Generating chart b3ba8625-6f5a-4e56-a3a3-a8b430f8ec66 with 1493 data points
+2025-09-23 15:42:39,517 [ERROR] Failed to generate chart b3ba8625-6f5a-4e56-a3a3-a8b430f8ec66: inferred panel list is missing panels: [1]
+2025-09-23 15:52:02,647 [INFO] Generating chart 8c3e0a58-c736-4755-82a1-84afa6b57cc8 with 1493 data points
+2025-09-23 15:52:02,829 [ERROR] Failed to generate chart 8c3e0a58-c736-4755-82a1-84afa6b57cc8: inferred panel list is missing panels: [1]
+2025-09-23 15:54:23,697 [INFO] Generating chart 1e9f83d0-6903-4483-906a-89ed524f9071 with 1493 data points
+2025-09-23 15:54:29,515 [INFO] Chart 1e9f83d0-6903-4483-906a-89ed524f9071 generated successfully in 5.89s
+2025-09-23 15:54:46,180 [INFO] Generating chart 89b51d3f-704e-464d-8a67-780f30d237f4 with 1493 data points
+2025-09-23 15:54:46,672 [ERROR] Failed to generate chart 89b51d3f-704e-464d-8a67-780f30d237f4: inferred panel list is missing panels: [1]
+2025-09-23 15:58:57,548 [INFO] Generating chart 08af4bb8-6582-431e-8107-db951aaa0225 with 1493 data points
+2025-09-23 15:59:15,850 [INFO] Chart 08af4bb8-6582-431e-8107-db951aaa0225 generated successfully in 18.31s
+2025-09-23 15:59:54,902 [INFO] Generating chart 82b5f11b-45e2-47e3-9554-98bd8eb5b181 with 1493 data points
+2025-09-23 16:00:29,624 [INFO] Chart 82b5f11b-45e2-47e3-9554-98bd8eb5b181 generated successfully in 34.75s
+2025-09-23 16:00:29,670 [INFO] Generating chart c11c37c8-b9d8-43e7-a203-a1ab5e1c8b20 with 448 data points
+2025-09-23 16:00:30,397 [INFO] Chart c11c37c8-b9d8-43e7-a203-a1ab5e1c8b20 generated successfully in 0.73s
+2025-09-23 16:00:30,405 [INFO] Generating chart b6a21e3f-e615-42a3-8725-c69b8fd86961 with 432 data points
+2025-09-23 16:00:30,970 [INFO] Chart b6a21e3f-e615-42a3-8725-c69b8fd86961 generated successfully in 0.56s
+2025-09-23 16:00:30,986 [INFO] Generating chart 8297b89b-c459-45d3-9630-747456e6d27b with 960 data points
+2025-09-23 16:00:32,048 [INFO] Chart 8297b89b-c459-45d3-9630-747456e6d27b generated successfully in 1.06s
