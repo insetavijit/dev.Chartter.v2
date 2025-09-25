@@ -135,7 +135,9 @@ class Chartter:
         self,
         df: pd.DataFrame,
         addplot: Optional[Union[Dict, List[Dict]]] = None,
-        config: Optional[Dict[str, Any]] = None
+        config: Optional[Dict[str, Any]] = None,
+        vlines: Optional[Dict[str, Any]] = None,
+        hlines: Optional[Dict[str, Any]] = None
     ) -> None:
         """
         Plot financial chart with OHLCV data and optional additional plots.
@@ -205,8 +207,15 @@ class Chartter:
             # Add savefig if specified
             if plot_config['savefig']:
                 plot_kwargs['savefig'] = plot_config['savefig']
+            # Add vlines if specified
+            if vlines:
+                plot_kwargs['vlines'] = vlines
 
+            # Add hlines if specified
+            if hlines:
+                plot_kwargs['hlines'] = hlines
             # Plot the chart
+
             mpf.plot(df, **plot_kwargs)
             logger.info(f"Chart {chart_id} generated successfully in {(datetime.now() - start_time).total_seconds():.2f}s")
 
