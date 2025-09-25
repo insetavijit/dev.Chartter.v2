@@ -25,6 +25,8 @@ trendln = "~=0.1.10"
 notebook = { version = "~=7.4.5", optional = true }
 ipykernel = { version = "~=6.30.1", optional = true }
 pyarrow = "^21.0.0"
+pandas-ta = "^0.4.71b0"
+cachetools = "^6.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "~=8.3.2"
