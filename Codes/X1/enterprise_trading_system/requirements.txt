@@ -1,0 +1,9 @@
+pandas>=1.3.0
+numpy>=1.21.0
+mplfinance>=0.12.0
+matplotlib>=3.5.0
+# Add lines for custom modules if installable, e.g.:
+# bktst
+# resampler
+# tafm
+# ChartterX5
